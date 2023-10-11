@@ -1,0 +1,219 @@
+@import 'common.css';
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header-page {
+    width: 100%;
+    color: #FFF;
+    background-color: var(--fondo-Cabecera);
+    padding: 0.5rem;
+    margin: 0 auto;
+}
+
+
+
+.message-error, .message-exclamation, .message-success{
+    width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 200;
+    text-align: center;
+}
+
+#sec-messages .message-error {
+    background-color: var(--mensaje-usuario-rojo);
+    
+    
+
+}
+
+#sec-messages .message-success {
+    background-color: var(--mensaje-usuario-verde);
+    
+
+}
+
+#sec-messages .message-exclamation{
+    background-color: var(--mensaje-usuario-amarillo);
+    
+
+}
+
+#sec-messages p {
+    color: #FFF;
+}
+
+#sec-messages i {
+    color: #FFF;
+    margin-right: 10px;
+}
+
+
+
+#sec-contenido #Elecciones-titulo{
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    color: var(--celeste);
+
+}
+
+.texto-path{
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    color: var(--celeste);
+}
+
+#grid{
+    border-radius: 15px;
+    background-color: rgb(250, 250, 250);
+    width: 1000px;
+    margin: 0 auto 50px auto;
+    border: 1px solid var(--borde-Grilla);
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+thead {
+    text-align: center;
+    color: var(--titulo-Grilla);
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+thead th{
+    padding: 10px 20px;
+    border-bottom: 1px solid var(--borde-Grilla);
+}
+
+tbody tr:hover {
+    background-color: rgb(250, 250, 250);
+}
+
+tbody td {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid var(--borde-inferior-grilla);
+    padding: 15px 0;
+    font-size: 12px;
+    vertical-align: top;
+    text-align: center;
+}
+
+td svg{
+    width: 100%;  
+    border-radius: 10px;
+    max-width: 100%;
+    align-items: left;
+}
+
+#Mesas-escrutadas, #Electores, #Participación-sobre-escrutado {
+    border-radius: 10px;
+    margin: 15px;
+    font-weight: bold;
+    width: 180px;
+    height: 70px;
+    padding: 0.5rem 1rem;
+    font-size: 12px;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-size: 50px;
+}
+
+#datos-generales p {
+    color: #FFF;
+}
+
+#sec-contenido h1 {
+    padding: 50px;
+}
+
+
+#datos-por-agrupacion {
+    overflow-y: auto;
+    height: 100px;
+    padding: 15px;
+    color: var(--textos);
+    
+}
+
+
+#inicio, #paso, #generales {
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 10px;
+    font-weight: bold;
+    width: 100px;
+    padding-top: 9px;
+}
+
+#paso {
+    background-color: var(--magenta);
+    color: #FFF;
+}
+
+#paso:hover {
+    background-color: var(--gris-claro);
+}
+
+#generales {
+    background-color: var(--celeste);
+    color: #FFF;
+}
+
+#generales:hover {
+    background-color: var(--gris-claro);
+}
+
+#consulta {
+    color: #FFF;
+    margin-top: 5px;
+}
+
+#inicio {
+    background-color: var(--gris-claro);
+    margin-left: auto;
+}
+
+#menu-negro {
+    background-color: var(--fondo-Menu);
+    padding: 20px;
+}
+
+#menu-negro ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+#menu-negro li {
+    margin-right: 20px;
+}
+
+
+#menu-negro a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #FFF;
+}
+
+
+#menu-negro a:active {
+    font-weight: bold;
+}

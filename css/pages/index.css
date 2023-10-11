@@ -1,0 +1,141 @@
+.header-page {
+    width: 100%;
+    color: var(--celeste);
+    background-color: var(--fondo-Cabecera);
+    padding: 0.5rem;
+    margin: 0 auto;
+    
+}
+
+#menu-negro {
+    background-color: var(--fondo-Menu);
+    padding: 20px;
+}
+
+#menu-negro ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+#menu-negro li {
+    margin-right: 20px;
+}
+
+
+#menu-negro a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #FFF;
+}
+
+
+#menu-negro a:active {
+    font-weight: bold;
+}
+
+#paso, #generales, #informes {
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 10px;
+    font-weight: bold;
+    width: 100px;
+    padding-top: 9px;
+}
+
+#generales {
+    background-color: var(--celeste);
+    color: #FFF;
+}
+
+#generales:hover {
+    background-color: var(--gris-claro);
+}
+
+#informes {
+    background-color: transparent;
+    border: 1px solid #FFF;
+    color: #FFF;
+    border-radius: 12px;
+}
+
+#informes:hover {
+    background-color: var(--gris-claro);
+}
+
+#paso {
+    background-color: var(--magenta);
+    color: #FFF;
+}
+
+#paso:hover {
+    background-color: var(--gris-claro);
+}
+
+#consulta {
+    color: #FFF;
+    margin-top: 5px;
+}
+ 
+#sec-titulo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 15px;
+    width: 80%;
+}
+
+#sec-contenido {
+    display: flex;
+    justify-content: center;
+}
+
+
+.texto-resultado {
+    margin-left: 20px;
+    margin-right: 2px;
+    min-width: 250px;
+    max-width: 700px;
+
+}
+
+#imagen-index img {
+    text-align: center;
+    margin-right: 30px;
+    width: 400px;
+    margin-left: 20px;
+}
+
+
+.boton-index {
+    border-radius: 10px;
+    margin: 15px 55px 100px 55px;
+    width: 350px;
+    height: 100px;
+    padding: 1rem;
+    font-size: 28px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    border: none;
+    justify-content: start;
+    
+
+}
+
+#boton-ir-a-paso {
+    background-color: var(--celeste);
+    
+    
+}
+
+#boton-ir-a-general {
+    background-color: var(--magenta);
+
+}
+
